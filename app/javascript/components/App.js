@@ -1,6 +1,7 @@
 
-import React, {Component} from 'react'
-import Greeting from './Greeting'
+import React, {Component} from 'react';
+import Greeting from './Greeting';
+import Nav from './Nav';
 
 class App extends Component {
   
@@ -8,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Greeting/>
+        <Nav/>
       </div>
     )
   }
